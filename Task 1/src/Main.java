@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     static double a = 0;
     static double b = 0;
@@ -31,6 +33,7 @@ public class Main {
 
     private static double inputDouble() {
         //todo дописать логику
-        return 0;
+        System.out.println("Введите значение переменной:");
+        return new Scanner(System.in).nextInt();
     }
 }
